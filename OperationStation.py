@@ -1,5 +1,5 @@
 # 1. This function counts how many even numbers there are from num to 0. howManyEven(9) would return 5. 
-# 2. isOdd(3) returns True because 3 is an odd number and it has a modulo of 1. 
+# 2. isOdd(3) returns True because 3 is an odd number and this code reads that by evaluating it's modulo. 
 # 3. 
 def factorial(num):
     total = 1
