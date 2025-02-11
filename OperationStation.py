@@ -36,7 +36,7 @@ def isOdd(num):
   
 def noChange(cents):
     dollars = cents // 100  
-    if cents % 100 == 0:  
+    if cents % 100 != 0:  
         print("Hoorah!")
     else:
         print("Keep the change!")
