@@ -2,13 +2,13 @@
 # 2. isOdd(3) returns True because 3 is an odd number and it has a modulo of 1. 
 # 3. 
 def factorial(num):
+    total = 1
     if num < 0:
-        return "Undefined for negative numbers"
-    total = 1  
+        num *= -1  
     while num > 0:
-        total *= num  
-        num -= 1  
-    return total
+        total *= num
+        num -= 1
+        return total
 # 4. The fraction 3/4 is equal to 3 divided by 4 and therefore using floor divison turns the fraction into an integer. n = 3 // 4
 
 
